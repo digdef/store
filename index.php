@@ -14,10 +14,13 @@
 			</a>
 		</div>
 	</header>
-	<nav>
+	<nav class="nav">
 		<button class="nav-btn">Категории</button>
-		<button class="nav-btn">Поиск</button>
 		<button class="nav-btn">Корзина</button>
+		<form>
+			<input class="search" type="search" name="search" placeholder="Поиск">
+			<input class="submit" type="submit" name="submit" value="Поиск">
+		</form>	
 	</nav>
 
 	<div style="padding-top: 60px">
