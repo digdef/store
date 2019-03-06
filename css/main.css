@@ -35,13 +35,13 @@ nav{
 	font-size: 25px;
 	height: 50px;
 	outline: none;
+	transition: 0.3s;
 }
 
-.search {
+.search-txt {
 	width: 200px;
 	background: none;
-	border-radius: 10px;
-	border-color: black;
+	border: none;
 	outline: none;
 	text-align: center;
 	color: white;
@@ -56,10 +56,54 @@ nav{
 	font-size: 25px;
 	width: 200px;
 	outline: none;
+	transition: 0.3s;
+}
+
+#genre-btn {
+	width: 50px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+@media (min-width: 1000px) {
+	#genre-btn{
+		visibility: hidden;
+		display: none;
+	}
+}
+@media (max-width: 999px) {
+	.nav-btn {
+		visibility: hidden;
+		display: none;		
+	}
+}
+
+#genre-btn span {
+	display: block;
+	width: 20px;
+	height: 4px;
+	background-color: #E0E5EA;
+	margin: 4px 0;
+}
+
+#vipad {
+	background:#2f3640;
+}
+
+.vipad-btn {
+	background: none;
+	color: white;
+	height: 50px;
+	border: none;
+	font-size: 25px;
+	width: 100%;
+	outline: none;
+	transition: 0.3s;
 }
 
 .nav-btn:hover,
-.submit:hover {
+.submit:hover,
+.vipad-btn:hover {
 	background-color: #353b48;
 }
 
@@ -72,8 +116,7 @@ nav{
 }
 
 .img {
-	height: 300px;
-	width: 400px;
+	width: 512px;
 }
 
 /* link */
