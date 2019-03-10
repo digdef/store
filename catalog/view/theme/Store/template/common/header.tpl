@@ -43,14 +43,14 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body class="<?php echo $class; ?>">
-<header>
+<nav>
   <div class="content">
     <a href="/">
       <img class="logo" src="catalog/view/theme/Store/image/logo.png">
     </a>
   </div>
-</header>
-<nav class="nav">
+</nav>
+<header class="nav">
   <div id="genre-btn" href="#" onclick="toggle('#vipad');">
     <span></span>
     <span></span>
@@ -67,13 +67,13 @@
 <?php } ?>
   </div>
   <button class="nav-btn" style="outline: none;" onclick="location='<?php echo $shopping_cart; ?>'">Корзина</button>
-  <form class="search">
-    <input class="search-txt" type="search" name="search" placeholder="Поиск">
-    <button class="submit" type="submit" name="submit" value="Поиск"  style="outline: none;">
-      <i class="fas fa-search"></i>
-    </button>
-  </form>
-</nav>
+
+  <div class="search">
+      <div><?php echo $search; ?>
+      </div>
+  </div>
+</header>
+
 <div id="vipad">
   <div id="genre-bar">
     <button class="vipad-btn">Корзина</button>

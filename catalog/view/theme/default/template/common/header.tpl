@@ -91,7 +91,7 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+
       </div>
       <div class="col-sm-3"><?php echo $cart; ?></div>
     </div>

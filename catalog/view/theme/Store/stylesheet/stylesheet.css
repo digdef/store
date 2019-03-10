@@ -2,26 +2,25 @@ html, body {
 	height: 100%;
 }
 
-header {
+nav {
 	height: 20%;
 	position: relative;
 	background-color: #000;
 	text-align: center;
 }
 
-nav{
+header {
 	z-index: 100;
 	top:0;
 	left:0;
 	background: #2d3436;
 	width:100%;
 	height: 50px;
-}
-
-.nav {
 	display: flex;
 	justify-content: center;
 }
+
+
 
 .submit {
 	background: none;
@@ -312,4 +311,10 @@ footer {
 .basket-btn {
 	display: flex;
 	justify-content: center;
+}
+
+.error {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;	
 }
