@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <div style="padding-top: 60px">
   <div class="container">
     <div class="container-fluid">
@@ -24,11 +25,11 @@
             <div class="modal fade" id="exampleModal<?php echo $product['product_id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModal<?php echo $product['product_id']; ?>" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
-                  <div class="container" id="modal">
+                  <div id="modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <img class="w-100 img-tov"" src="<?php echo $product['thumb']; ?>"><br>
+                    <img class="w-100 img-tov" src="<?php echo $product['thumb']; ?>"><br>
                     <span><?php echo $product['description']; ?></span><br>
                     <h4>Количество /</h4>
                     <h4>Цена /

@@ -20,8 +20,6 @@ header {
 	justify-content: center;
 }
 
-
-
 .submit {
 	background: none;
 	color: white;
@@ -209,8 +207,7 @@ footer {
 }
 
 #modal {
-	margin-bottom: 1%;
-	margin-top: 1%;
+	margin: 1%;
 }
 
 #dropdown-menu {
@@ -314,7 +311,7 @@ footer {
 }
 
 .error {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
