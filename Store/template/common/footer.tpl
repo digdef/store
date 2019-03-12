@@ -1,3 +1,4 @@
+<div style="padding-bottom: 50px;"></div>
 <footer>
   <a id="link2" href="">telegram</a>
 </footer>

@@ -1,10 +1,12 @@
 <?php echo $header; ?>
-<div class="container">
-	<div class="row">
-		<div id="content">
-			<?php echo $content_top; ?>
+<div class="wrapper">
+	<div class="container">
+		<div>
+			<div id="content">
+				<?php echo $content_top; ?>
+			</div>
+		<?php echo $column_right; ?>
 		</div>
-	<?php echo $column_right; ?>
 	</div>
+	<?php echo $footer; ?>
 </div>
-<?php echo $footer; ?>

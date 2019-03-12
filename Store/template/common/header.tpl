@@ -22,8 +22,8 @@
   <?php } ?>
   <meta property="og:site_name" content="<?php echo $name; ?>" />
   <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="catalog/view/javascript/bootstrap2/js/bootstrap.min.js" type="text/javascript"></script>
   <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
   <link href="catalog/view/theme/Store/stylesheet/stylesheet.css" rel="stylesheet">
@@ -41,6 +41,7 @@
   <?php echo $analytic; ?>
   <?php } ?>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </head>
 <body class="<?php echo $class; ?>">
 <nav>
