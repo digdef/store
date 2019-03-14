@@ -39,6 +39,15 @@
                       <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
                       <?php } ?>
                     </h4>
+              <?php foreach ($vouchers as $voucher) { ?>
+
+
+                <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
+                    <input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
+                    <span class="input-group-btn">
+                    <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $voucher['key']; ?>');"><i class="fa fa-times-circle"></i></button>
+                    </span></div></td>
+              <?php } ?>
                     <button id="btn" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
                   </div>
                 </div>

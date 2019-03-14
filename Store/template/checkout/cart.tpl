@@ -39,7 +39,15 @@
                 <h2><?php echo $product['name']; ?></h2>
               </div>
               <div class='text' style='width: 40%;'>
-                <h2><?php echo $product['quantity']; ?> шт.</h2>
+                
+                
+                  <div class="input-group btn-block" style="max-width: 200px;">
+                    <input type="text" name="quantity[<?php echo $product['cart_id']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control" />
+                    <span class="input-group-btn">
+                      <button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>"  id="btn"><i class="fa fa-refresh"></i></button>
+                    </span>
+                  </div>
+                
                 <h2>/</h2>
                 <h2><?php echo $product['price']; ?></h2>
               </div>
