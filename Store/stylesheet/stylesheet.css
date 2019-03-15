@@ -133,6 +133,14 @@ header {
 	outline: none;
 }
 
+#inp {
+	background: none;
+	font-size: 17px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+}
+
 footer {
 	margin-top: 5%;
 	background-color: #000;
