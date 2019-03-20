@@ -62,7 +62,7 @@
 <?php if ($categories) { ?>
     <div class="dropdown-menu" id="dropdown-menu" aria-labelledby="dropdownMenuLink">
 <?php foreach ($categories as $category) { ?>
-      <button onclick="location='<?php echo $category['href']; ?>'" class="nav-btn"><?php echo $category['name']; ?></button>
+      <button onclick="location='<?php echo $category['href']; ?>'" class="nav-btn ctg"><?php echo $category['name']; ?></button>
 <?php } ?>
     </div>
 <?php } ?>
@@ -77,13 +77,13 @@
 
 <div id="vipad">
   <div id="genre-bar">
-    <button class="vipad-btn">Корзина</button>
+    <button class="vipad-btn" onclick="location='<?php echo $shopping_cart; ?>'">Корзина</button>
     <div class="dropdown show">
       <button class="vipad-btn"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="outline: none; width: 100%;">Категории</button>
 <?php if ($categories) { ?>
       <div class="dropdown-menu" id="dropdown-menu2" aria-labelledby="dropdownMenuLink">
 <?php foreach ($categories as $category) { ?>
-        <button onclick="location='<?php echo $category['href']; ?>'" class="vipad-btn"><?php echo $category['name']; ?></button>
+        <button onclick="location='<?php echo $category['href']; ?>'" class="vipad-btn ctg"><?php echo $category['name']; ?></button>
 <?php } ?>
       </div>
 <?php } ?>
